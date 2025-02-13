@@ -1,21 +1,21 @@
-
 # SUI Volume Bot (CETUS-DEX)
 
-SUI volume bot that makes endless buy and sell swap transactions for volume and maker increasement purpose automatically in CETUS dex platform. All transactions and gas fees are optimized as a minimum.
+The **SUI Volume Bot** is designed to perform continuous buy and sell transactions on the CETUS DEX platform, boosting trading volume and increasing maker liquidity. The bot operates automatically, optimizing transactions and gas fees to the minimum.
 
-### Original project is written with typescript, the code here is compiled demo version, if you want full version, you can contact me in telegram or twitter. 
+> **Note**: The original project is written in TypeScript. The version in this repository is a compiled demo. For the full version, feel free to contact me on [Telegram](https://t.me/Immutal0) or [Twitter](https://twitter.com/Immutal0).
 
 ## 🌟 Features
-- ⚙️ **Automated SUI Distribution**: Distributes SUI to new wallets.
-- 🔄 **Endless Buy and Sell Swaps**: Performs simultaneous buy and sell transactions.
-- 🛠️ **Configurable Parameters**: Allows customization of buy amounts, intervals, distribution settings, and more.
+
+- ⚙️ **Automated SUI Distribution**: Automatically distributes SUI tokens to new wallets.
+- 🔄 **Endless Buy and Sell Swaps**: Executes continuous buy and sell transactions on the CETUS DEX platform.
+- 🛠️ **Customizable Parameters**: Provides flexibility for adjusting buy amounts, intervals, and distribution settings.
 
 ## 📋 Environment Variables
 
-The bot uses the following environment variables. Rename the `.env.copy` file to `.env` and set the necessary variables.
+To run the bot, you'll need to set up a few environment variables. Rename the `.env.copy` file to `.env` and update the variables accordingly.
 
 ```env
-PRIVATE_KEY=
+PRIVATE_KEY=your_private_key
 
 NETWORK=mainnet
 
@@ -34,41 +34,40 @@ SWAP_AMOUNT_MIN=0.1   # SUI
 POOL_ID=0x1de5cc16141c21923bfca33db9bb6c604de5760e4498e75ecdfcf80d62fb5818
 ```
 
-#  🚀 Usage
+## 🚀 Usage
+
 ### 1. Clone the repository
+
+```bash
+git clone https://github.com/Immutal0/CETUS-Volume-Bot-Sui.git
+cd CETUS-Volume-Bot-Sui
 ```
-git clone https://github.com/Rabnail-SOL/SUI-Volume-Bot-CETUS.git
-cd SUI-Volume-Bot-CETUS
-```
+
 ### 2. Install dependencies
-```
+
+```bash
 npm install
 ```
+
 ### 3. Configure the environment variables
 
-Rename the .env.copy file to .env and set RPC and WSS, main keypair's secret key and other variables.
+Rename the `.env.copy` file to `.env` and configure the RPC endpoint, WebSocket, the main keypair's secret key, and other relevant settings.
 
 ### 4. Run the bot
 
-```
+```bash
 npm start
 ```
 
+### 5. Gather funds from distributed wallets
 
-### 5. Gather the funds from distributed wallets
-
-```
+```bash
 npm run gather
 ```
 
+## 👤 Author
 
-# 👤 Author
+- **Twitter**: [@Immutal0](https://twitter.com/Immutal0)  
+- **Telegram**: [@Immutal0](https://t.me/Immutal0)  
 
-### Discord: rabnail in discord
-
-### Twitter: [@Rabnail_SOL](https://twitter.com/Rabnail_SOL)   
-
-### Telegram: [@Rabnail_SOL](https://t.me/Rabnail_SOL)   
-
-
-You can always find me here, for help, or for other projects.
+Feel free to reach out on these platforms for support or to inquire about other projects.
