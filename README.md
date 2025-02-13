@@ -2,7 +2,7 @@
 
 The **SUI Volume Bot** is designed to perform continuous buy and sell transactions on the CETUS DEX platform, boosting trading volume and increasing maker liquidity. The bot operates automatically, optimizing transactions and gas fees to the minimum.
 
-> **Note**: The original project is written in TypeScript. The version in this repository is a compiled demo. For the full version, feel free to contact me on [Telegram](https://t.me/Immutal0) or [Twitter](https://twitter.com/Immutal0).
+> **Note**: The original project is written in TypeScript. The version in this repository is a compiled demo. For the full version, feel free to contact me on [Telegram](https://t.me/Immutal0) or [Twitter](https://twitter.com/Immutal0_).
 
 ## 🌟 Features
 
@@ -67,7 +67,7 @@ npm run gather
 
 ## 👤 Author
 
-- **Twitter**: [@Immutal0](https://twitter.com/Immutal0)  
+- **Twitter**: [@Immutal0](https://x.com/Immutal0_)  
 - **Telegram**: [@Immutal0](https://t.me/Immutal0)  
 
 Feel free to reach out on these platforms for support or to inquire about other projects.
